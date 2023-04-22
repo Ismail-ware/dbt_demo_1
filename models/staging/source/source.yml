@@ -1,0 +1,7 @@
+sources:
+  - name: demo_dataset
+    database: projecteddbt
+    schema: demo_dataset
+    tables:
+      - name: stores
+      - name: my_first_dbt_model
